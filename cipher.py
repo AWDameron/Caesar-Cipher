@@ -1,7 +1,7 @@
 
 # Dress your text up to the Caesar's preferred method of encryption, the default value for this 
 # program is 5, but if you'd like to use a different shift you can simply call the function as
-# Caesar_Dress(sentence,integer_here).   
+# Caesar_Dressing(sentence,integer_here).   
 
 def Caesar_Dressing (sentence, shift=5):
     letters = "abcdefghijklmnopqrstuvwxyz"
@@ -27,7 +27,7 @@ def Caesar_Dressing (sentence, shift=5):
     return coded_sentence
 
 
-sentence = 'I love coding in python'
+sentence = 'n qtvj htinsl ns uyymts'
 print(sentence)
-print(Caesar_Dressing(sentence))
+print(Caesar_Dressing(sentence,-5))
 
